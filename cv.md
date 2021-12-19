@@ -42,3 +42,43 @@ I am the head of the purchasing department. At the moment I want to learn a java
     - Project management
 
 ---
+
+## Education:
+- [Belarusian National Technical University](https://en.bntu.by/)
+
+    Instrumentation Engineering *(Standardization, Metrology and Information Systems)* 
+
+- [Sovremennie Tekhnologii Upravleniya](https://umalogic.com/)
+
+    Designing the Business Architecture of a Company in Business Studio
+
+- [RS School](https://rs.school/)
+
+    RS Schools Course «JavaScript/Front-end. Stage 0» *(in progress)*
+
+---
+
+## Code Example:
+
+```js
+function multiply(a, b){
+  return a * b
+}
+```
+
+---
+
+## Experience:
+
+- Sales Manager (Amazon, Ebay, Wallmart)
+- Customer Service Manager
+- Head of Purchasing Departmenr
+
+---
+
+## Languages:
+
+- Belarussian: Naitive
+- Russian: Advanced
+- English: Intermediate
+- German: Beginner

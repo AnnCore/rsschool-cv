@@ -1,3 +1,26 @@
-.style {
-    font-size: 16px;
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 60%;
+    margin: 0 auto; 
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-color:  lightgray;
+}
+
+.header {
+    flex: 0 0 5vw;
+    background-color: #203572;
+    color: #3fc7df;
+}
+
+.main {
+    display: flex;
+    color: #203572;
+}
+
+.footer {
+    flex: 0 0 2.5vw;
+    background-color: #203572;
 }

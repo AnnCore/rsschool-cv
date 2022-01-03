@@ -131,8 +131,18 @@ h3 {
   text-decoration: underline;
 }
 
-.skills-content {
+.content {
   padding-left: 25px;
+}
+
+.link {
+  text-decoration: none;
+  font-weight: bold;
+  color: var(--color-main);
+}
+
+.link:hover {
+  text-decoration: underline;
 }
 
 .footer {

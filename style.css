@@ -1,3 +1,160 @@
-.style {
-    font-size: 16px;
+:root {
+  --color-main: #203572;
+  --color-header: #3fc7df;
 }
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 60%;
+  margin: 0 auto;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+  background-color: lightgray;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 32px;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--color-header);
+  padding-bottom: 0;
+  margin-bottom: 0;
+
+
+}
+
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--color-header);
+}
+
+h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 200;
+  font-weight: bold;
+}
+
+.header {
+  flex: 0 0 5vw;
+  background-color: var(--color-main);
+  color: var(--color-header);
+}
+
+.nav-list {
+  padding: 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style: none;
+}
+
+.nav-link {
+  color: var(--color-header);
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.nav-link:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.main {
+  display: flex;
+  flex: 1;
+}
+.main-left {
+  flex: 1;
+  padding: 20px;
+  background-color: var(--color-main);
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 100;
+  text-align: justify;
+}
+
+.main-right {
+  flex: 2;
+  padding: 10px;
+  margin: 10px;
+  color:var(--color-main);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 100;
+  text-align: justify;
+}
+
+/* .main-left h1,
+.main-left h2 {
+  padding: 10px;
+}
+ */
+.main-right h2 {
+  background-color: var(--color-main);
+  padding: 10px;
+  margin-left: 10px; 
+}
+
+#profile img {
+  display: block;
+  max-width: 15vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#profile p {
+  text-align: center;
+  margin: 0;
+}
+
+.contacts-list {
+  list-style: none;
+  padding: 0;
+}
+
+.contacts-link {
+  text-decoration: none;
+  color: white;
+}
+
+.contacts-link:hover {
+  text-decoration: underline;
+}
+
+.content {
+  padding-left: 25px;
+}
+
+.link {
+  text-decoration: none;
+  font-weight: bold;
+  color: var(--color-main);
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex: 0 0 3vw;
+  background-color: var(--color-main);
+  color: white;
+}
+
+.footer img {
+  height: 30px;
+}
+
